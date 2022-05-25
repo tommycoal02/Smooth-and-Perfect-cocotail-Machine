@@ -7,11 +7,58 @@
   box-sizing: border-box;
 }
 
+
+/********************************/
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 
+body{
+  background: url(../img/alexandra-golovac-kP8QyKwd1r0-unsplash.jpg);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
+}
+.firstInner{
+  margin-bottom: 20px;
+} 
+.SecondInner{
+  /* color: white; */
+}
+.formPage{
+  justify-content: center;
+  text-align: center;
+}
+
+#mainPage{
+  display: flex;
+  margin-block-start: 40px;
+  margin-inline-start: 30px;
+  margin-inline-end: 60px;
+  justify-content: center;
+}
+#mainPage section{
+  margin-inline: 10px;
+}
+img{
+  /* height: 500px; */
+  width: 500px;
+  margin: 10px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES

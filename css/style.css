@@ -27,7 +27,11 @@ clear: both;
 /* LAYOUT
 /*******************************************/
 
-
+html{
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  
+  
+}
 body{
   background: url(../img/alexandra-golovac-kP8QyKwd1r0-unsplash.jpg);
   -webkit-backdrop-filter: blur(2px);
@@ -36,9 +40,10 @@ body{
 .firstInner{
   margin-bottom: 20px;
 } 
-.SecondInner{
-  /* color: white; */
+h1{
+  font-family: 'Corben', cursive;
 }
+
 .formPage{
   justify-content: center;
   text-align: center;
@@ -55,9 +60,28 @@ body{
   margin-inline: 10px;
 }
 img{
-  /* height: 500px; */
   width: 500px;
   margin: 10px;
+}
+li{
+  list-style: none;
+}
+.ingredient2{
+  /* color: red; */
+}
+
+@media screen and (max-width: 500px) {
+
+  img{
+    width: 300px;
+    margin: 10px;
+  }
+  ul> li{
+    justify-content: center;
+    text-align: center;
+    margin-left: -40px;
+
+  }
 }
 
 /******************************************

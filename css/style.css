@@ -29,6 +29,76 @@ clear: both;
 
 html{
   font-family: 'Tiro Devanagari Sanskrit', serif;
+  width: 100%;
+  font-size: 1.1rem;
+} 
+#formPage{
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+.inputDesign{
+  border-radius: 3px;
+  padding: 4px;
+}
+button{
+  color: black;
+}
+
+ul >li{
+  text-decoration: none;
+  list-style: none;
+}
+#coverForPage{
+  background-image: url(../img/alexandra-golovac-kP8QyKwd1r0-unsplash.jpg);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 500px; */
+  padding: 20px;
+  height: 600px;
+}
+#mainPage {
+  display: flex;
+}
+img{
+  width: 400px;
+}
+.SecondInner{
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 650px) {
+  #mainPage{
+    display: block;
+  }
+  html{
+    font-size: 1rem;
+  }
+  h2{
+    text-align: center;
+  }
+  .firstInner{
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  img{
+    width: 80%;
+  }
+  #coverForPage{
+    height: auto;
+  }
+}
+
+
+
+
+/* html{
+  font-family: 'Tiro Devanagari Sanskrit', serif;
+  width: 100%;
   
   
 }
@@ -66,9 +136,7 @@ img{
 li{
   list-style: none;
 }
-.ingredient2{
-  /* color: red; */
-}
+
 
 @media screen and (max-width: 500px) {
 
@@ -82,7 +150,7 @@ li{
     margin-left: -40px;
 
   }
-}
+} */
 
 /******************************************
 /* ADDITIONAL STYLES

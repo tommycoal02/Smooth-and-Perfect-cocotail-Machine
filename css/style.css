@@ -48,8 +48,12 @@ button{
 ul >li{
   text-decoration: none;
   list-style: none;
+  font-size: 1.2rem;
 }
-#coverForPage{
+h3{
+  font-size:1.3rem;
+}
+body{
   background-image: url(../img/alexandra-golovac-kP8QyKwd1r0-unsplash.jpg);
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(3px);
@@ -57,14 +61,13 @@ ul >li{
   background-size: cover;
   background-position: center;
   padding: 20px;
-  height: 100vh;
 }
 #mainPage {
   display: flex;
   flex-direction: row;
 }
 img{
-  width: 400px;
+  width: 550px;
 }
 .SecondInner{
   margin-left: 30px;
@@ -74,7 +77,6 @@ img{
 @media screen and (max-width: 650px){
   body{
     height: 100%;
-    background-color: red;
   }
   
   #mainPage{
@@ -89,17 +91,15 @@ img{
   }
   .firstInner{
     text-align: center;
-    /* align-items: center; */
     justify-content: center;
   }
   img{
     width: 80%;
   }
-  #coverForPage{
-    height: 1000px;
+  .inputDesign{
+    margin-top: 5px;
   }
 }
-
 
 /******************************************
 /* ADDITIONAL STYLES
